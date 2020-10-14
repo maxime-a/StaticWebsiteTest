@@ -24,8 +24,9 @@
 .elementor-9 .elementor-element.elementor-element-6229782 > .elementor-container {max-width: 830px;}
 .elementor-9 .elementor-element.elementor-element-6f7a710 {text-align: center;}
 .elementor-9 .elementor-element.elementor-element-6f7a710 .elementor-heading-title {color: #000;font-family: "Average Sans",Sans-serif;}
+@media (min-width:768px) {.elementor-9 .elementor-element.elementor-element-4137b3d {width: 100%;}}
+@media (max-width:1024px) {.elementor-9 .elementor-element.elementor-element-8ca2b53 {margin-top: 12px;margin-bottom: 0px;}}
 @media (max-width:767px) {.elementor-9 .elementor-element.elementor-element-edbbf88 > .elementor-widget-container {margin: 0px 0px 0px 0px;}
 	.elementor-9 .elementor-element.elementor-element-d274ce9 > .elementor-widget-container {margin: -13px -13px -13px -13px;}
 	.elementor-9 .elementor-element.elementor-element-5ce5de1 .elementor-posts-container .elementor-post__thumbnail {padding-bottom: calc(.5 * 100%);}
 	.elementor-9 .elementor-element.elementor-element-5ce5de1:after {content: "0.5";}}
-@media (min-width:768px) {.elementor-9 .elementor-element.elementor-element-4137b3d {width: 100%;}}
