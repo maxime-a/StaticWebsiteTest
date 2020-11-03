@@ -15,6 +15,8 @@
 <link rel="stylesheet" id="magnific-popup-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="slick-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/themes/oceanwp/assets/css/third/slick.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="oceanwp-style-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/themes/oceanwp/assets/css/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="oceanwp-hamburgers-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/themes/oceanwp/assets/css/third/hamburgers/hamburgers.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="oceanwp-3dx-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dx.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-animations-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="https://maxime-a.github.io/StaticWebsiteTest/wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css" media="all">
@@ -37,7 +39,7 @@
 <meta name="msapplication-TileImage" content="https://maxime-a.github.io/StaticWebsiteTest/wp-content/uploads/2020/09/android-chrome-192x192-128x128-4.png">
 
 <style type="text/css">
-/* Top Bar CSS */#top-bar-social li a{font-size:29px}/* Header CSS */#site-header.medium-header .top-header-wrap{padding:0}#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header .oceanwp-mobile-menu-icon a{line-height:24px}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}.oceanwp-social-menu ul li a,.oceanwp-social-menu .colored ul li a,.oceanwp-social-menu .minimal ul li a,.oceanwp-social-menu .dark ul li a{font-size:24px}/* Footer Widgets CSS */#footer-widgets{padding:0}/* Typography CSS */.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{font-size:22px}
+/* Top Bar CSS */#top-bar-social li a{font-size:29px}/* Header CSS */#site-header.medium-header .top-header-wrap{padding:0}#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header .oceanwp-mobile-menu-icon a{line-height:24px}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}.oceanwp-social-menu ul li a,.oceanwp-social-menu .colored ul li a,.oceanwp-social-menu .minimal ul li a,.oceanwp-social-menu .dark ul li a{font-size:24px}.mobile-menu .hamburger-inner,.mobile-menu .hamburger-inner::before,.mobile-menu .hamburger-inner::after{background-color:#000000}/* Footer Widgets CSS */#footer-widgets{padding:0}/* Typography CSS */.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{font-size:22px}
 </style></head>
 
 <body class="home page-template page-template-elementor_header_footer page page-id-74 wp-embed-responsive oceanwp-theme dropdown-mobile medium-header-style has-transparent-header no-header-border default-breakpoint content-full-width content-max-width has-breadcrumbs has-blog-grid elementor-default elementor-template-full-width elementor-kit-13 elementor-page elementor-page-74" itemscope="itemscope" itemtype="https://schema.org/WebPage">
@@ -145,7 +147,11 @@
 		
 		
 		<a href="javascript:void(0)" class="mobile-menu" aria-label="Mobile Menu">
-							<i class="fa fa-bars" aria-hidden="true"></i>
+							<div class="hamburger hamburger--3dx" aria-expanded="false">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
 								<span class="oceanwp-text">Menu</span>
 				<span class="oceanwp-close-text">Close</span>
 						</a>
@@ -191,17 +197,6 @@
 		
 	</div>
 
-</div>
-
-<div id="mobile-menu-search" class="clr">
-	<form method="get" action="https://maxime-a.github.io/StaticWebsiteTest/en/accueil-english/" class="mobile-searchform" role="search" aria-label="Search for:">
-		<label for="ocean-mobile-search1">
-			<input type="search" name="s" autocomplete="off" placeholder="Search">
-			<button type="submit" class="searchform-submit" aria-label="Submit Search">
-				<i class="icon icon-magnifier" aria-hidden="true"></i>
-			</button>
-					</label>
-		<input type="hidden" name="lang" value="en">	</form>
 </div>
 
 	</nav>
